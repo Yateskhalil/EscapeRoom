@@ -33,24 +33,26 @@ public class EscapeRoom {
         displayQuestion = new JLabel();
         start = new JButton("Click to start");
         enter = new JTextField(10);
-
+        choice1= new JButton("1");
+        choice2= new JButton("2");
 
         panel.setBackground(Color.BLACK);
         enter.setBounds(90, 250, 200, 30);
 
         start.setBounds(90, 150, 200, 30);
         displayQuestion.setBounds(200, 20, 200, 30);
+        choice1.setBounds(75,80,50,25);
+        choice2.setBounds(125,80,50,25);
 
-        choice1.setBounds(60,200,100,100);
-        choice2.setBounds(50,50,150,150);
 
-         panel.add(choice1);
-        panel.add(choice2);
+
+
         panel.add(enter);
         panel.add(start);
         panel.add(displayQuestion);
 
-
+        panel.add(choice1);
+        panel.add(choice2);
 
 
 
@@ -81,11 +83,9 @@ public class EscapeRoom {
             start.setVisible(false);
 
 
-        choice1.setBounds(50,50,100,100);
-        choice2.setBounds(50,50,150,150);
 
-            panel.add(choice1);
-            panel.add(choice2);
+
+
 
 
 
